@@ -1,0 +1,54 @@
+#navegacao{
+    opacity: 0.9;
+    max-height: 10%;
+}
+@media(max-width: 720px){
+    #navegacao{
+        min-height: 10%;
+        max-height: 100%;
+    }
+}
+#logoShowcase{
+    margin-left: -10%;
+}
+@media(max-width: 720px){
+    #logoShowcase{
+        margin-left: 0%;
+    }
+}
+#logoNavBar{
+    max-width: 40%;
+}
+#logoNavBarSmall{
+    max-width: 30%;
+}
+#botaoInscricao{
+    background-color: #cb6ce6;
+    border: none;
+}
+#cabeca{
+    background: url("headTeste.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.btnShowCase{
+    background-color: #040005;
+    border: none;
+}
+.cardImg{
+    background-color: #cb6ce6;
+    border-radius: 50%;
+}
+.cardNivel{
+    border: none;
+}
+.card{
+    border: none;
+}
+#niveis{
+    border-top: #040005 solid 1px;
+}
+/* .imgCard{
+    max-width: 40%;
+} */
