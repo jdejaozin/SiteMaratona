@@ -36,19 +36,30 @@
     background-color: #040005;
     border: none;
 }
+.cardImg1{
+    background-color: #cb6ce6;
+    border-radius: 100%;
+    max-width: 15%;
+    max-height: 170px;
+}
 .cardImg{
     background-color: #cb6ce6;
-    border-radius: 50%;
+    border-radius: 100%;
+    max-width: 50%;
+}
+.imgCard{
+    border-radius: 70%;
 }
 .cardNivel{
     border: none;
 }
 .card{
     border: none;
+    border-radius: 20px;
 }
 #niveis{
-    border-top: #040005 solid 1px;
+    background-color: #f5f3f5;
 }
-/* .imgCard{
-    max-width: 40%;
-} */
+#certificado{
+    max-width: 100%;
+}
