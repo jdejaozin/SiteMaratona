@@ -8,14 +8,7 @@
         max-height: 100%;
     }
 }
-#logoShowcase{
-    margin-left: -10%;
-}
-@media(max-width: 720px){
-    #logoShowcase{
-        margin-left: 0%;
-    }
-}
+
 #logoNavBar{
     max-width: 40%;
 }
@@ -24,7 +17,18 @@
 }
 #botaoInscricao{
     background-color: #cb6ce6;
+    border-radius: 30px;
     border: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 120%;
+    height: 120%;
+}
+.navButton{
+    width: 300px;
+}
+#botaoInscricao:hover{
+    background-color: #8c52ff;
 }
 #cabeca{
     background: url("headTeste.png") no-repeat;
@@ -32,9 +36,23 @@
     background-position: center;
     
 }
+.textHeader{
+    text-shadow: 2px 2px 4px #000000;
+}
 .btnShowCase{
-    background-color: #040005;
+    background-color: #cb6ce6;
+    border-radius: 30px;
     border: none;
+    font-size: 0.8em;
+    width: 120%;
+    height: 120%;
+    font-weight: 500;
+}
+.btnShowCase:hover{
+    background-color: #8c52ff;
+}
+.objetivoImg{
+    max-width: 90%;
 }
 .cardImg1{
     background-color: #cb6ce6;
@@ -62,4 +80,15 @@
 }
 #certificado{
     max-width: 100%;
+}
+.btnCertificado{
+    background-color: #cb6ce6;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    width: 20%;
+    height: 20%;
+}
+.btnCertificado:hover{
+    background-color: #8c52ff;
 }
