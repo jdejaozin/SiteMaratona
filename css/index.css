@@ -93,7 +93,7 @@
     background-color: #8c52ff;
 }
 #logoFooter{
-    max-width: 10%;
+    max-width: 20%;
 }
 ul{
     list-style: none;
@@ -105,5 +105,12 @@ ul{
     color: #f5f3f5;
 }
 #midiasIf li a i:hover{
+    color: #8c52ff;
+}
+.linkCrwd{
+    color: #cb6ce6;
+    font-weight: bold;
+}
+.linkCrwd a:hover{
     color: #8c52ff;
 }
