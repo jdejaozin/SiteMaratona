@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>I MARATONA DE PROGRAMAÇÃO INTERDISCIPLINAR</title>
 </head>
 <body>
@@ -14,10 +14,10 @@
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark" id="navegacao">
             <div class="container">
                 <a href="#" class="nav-link d-none d-sm-block" id="index-logo">
-                    <img src="LogoNav2.png" id="logoNavBar" alt="Logo Primeira Martona Interdisciplinar">
+                    <img src="img/LogoNav2.png" id="logoNavBar" alt="Logo Primeira Martona Interdisciplinar">
                 </a>
                 <a href="#" class="nav-link d-block d-sm-none" id="index-logo-small-screen">
-                    <img id="logoNavBarSmall" src="LogoNav2.png" alt="Logo Primeira Martona Interdisciplinar">
+                    <img id="logoNavBarSmall" src="img/LogoNav2.png" alt="Logo Primeira Martona Interdisciplinar">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linksNav">
@@ -49,7 +49,7 @@
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center">
                     
-                    <img id="logoShowcase" class="pt-5" src="Logo.png" alt="Logo Primeira Martona Interdisciplinar">
+                    <img id="logoShowcase" class="pt-5" src="img/Logo.png" alt="Logo Primeira Martona Interdisciplinar">
                     
                 </div>
                 <h2 class="p-5 text-center textHeader">
@@ -70,19 +70,23 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6">
-                    <img class="objetivoImg" src="pc.png" alt="pczin">
+                    <img class="objetivoImg" src="img/pc.png" alt="pczin">
                 </div>
                 <div class="col-md-6 pt-2">
                     <h1>Objetivos</h1>
                     <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa harum aliquam unde consectetur consequatur. Nulla facere tenetur suscipit molestias natus quibusdam? Omnis, dignissimos? Sapiente atque aliquid sit odio vitae tempora!
-                        Illo dolorem asperiores, reiciendis distinctio ut libero tenetur in eius nobis dolor. Quibusdam mollitia reprehenderit, quos deserunt voluptates repellendus. Asperiores est itaque totam, adipisci porro non ipsa libero iste ut.
+                        A Primeira Maratona De Programação Interdisciplinar tem como objetivo promover nos
+                        alunos a criatividade, capacidade de trabalho em equipe, habilidade de resolver
+                        problemas sob pressão e possibilitar a descoberta de novos talentos.<br>
+                        O público alvo são os alunos dos cursos de ADS e EC. A maratona será ranqueada
+                        por <a class="text-decoration-none" href="#niveis">níveis</a>, de acordo com o 
+                        conhecimento dos alunos e acontecerá no dia 11 de Julho(sábado) das 13h30 às 17h.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section id="niveis" class="pt-5 pb-5">
         <div class="container">
             <h1 class="text-center">Níveis da Maratona</h1>
@@ -92,14 +96,23 @@
                     <div class="card mb-3 mt-5">
                         <div class="row g-0 d-flex justify-content-center align-items-center pt-4 pb-4">
                             <div class="col-md-4 cardImg1 d-flex align-items-center">
-                                <img src="Noob.png" class="card-img imgCard1" alt="Imagem Noob">
+                                <img src="img/Noob.png" class="card-img imgCard1" alt="Imagem Noob">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Noob</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam commodi consequatur accusantium! Similique, aperiam optio! Quos, dolorem doloremque? Quidem optio eos dolor, nesciunt consequatur similique ipsam reiciendis illo distinctio officiis!
-                                    </p>
+                                    <div class="container d-flex justify-content-between">
+                                        <p class="card-text">
+                                            <br>Requisitos:<br> cursar matéria de Algoritmos <br> 
+                                            <br>Conhecimento necessário: <br> C / C++
+                                        </p>
+                                        <p class="card-text d-flex justify-content-end align-items-center col-5">
+                                            A maratona possui 5 diferentes níveis para que todos os
+                                            alunos possam participar sem ocorrer disparidade de níveis.
+                                            A seguir estão listados quais serão os níveis.
+                                        </p>
+                                    </div>
+                                    
                                     <p class="text-end pt-2">
                                         <a href="#demaisNiveis" class="text-muted text-decoration-none">Conheça os outros níveis abaixo</a> 
                                     </p>
@@ -112,7 +125,7 @@
                         <div class="card h-100 text-center">
                             <div class="container pt-3 d-flex align-items-center justify-content-center">
                                 <div class="cardImg">
-                                    <img src="Pilha.png" alt="" class="card-img-top imgCard">
+                                    <img src="img/Pilha.png" alt="" class="card-img-top imgCard">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -120,7 +133,8 @@
                                     Pilha
                                 </h5>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam enim quod voluptate voluptatem! Maxime explicabo doloremque voluptate sit officia magni possimus. Voluptate dignissimos minus facere ab tempora cupiditate error!
+                                    <br>Requisitos:<br> cursar Estrutura de Dados <br><br>
+                                    <br><br>Conhecimento necessário:<br> C / C++
                                 </p>
                             </div>
                         </div>
@@ -129,7 +143,7 @@
                         <div class="card h-100 text-center">
                             <div class="container pt-3 d-flex align-items-center justify-content-center">
                                 <div class="cardImg">
-                                    <img src="Pilha na Web.png" alt="" class="card-img-top imgCard">
+                                    <img src="img/Pilha na Web.png" alt="" class="card-img-top imgCard">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -137,7 +151,8 @@
                                     Pilha na Web
                                 </h5>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam enim quod voluptate voluptatem! Maxime explicabo doloremque voluptate sit officia magni possimus. Voluptate dignissimos minus facere ab tempora cupiditate error!
+                                    <br>Requisitos:<br>cursar Linguagem de Script Web (ADS) ou Tecnologias para Aplicações Web (ADS)<br><br>
+                                    Conhecimento necessários: <br>JavaScript
                                 </p>
                             </div>
                         </div>
@@ -146,7 +161,7 @@
                         <div class="card h-100 text-center">
                             <div class="container pt-3 d-flex align-items-center justify-content-center">
                                 <div class="cardImg">
-                                    <img src="Ordenado.png" alt="" class="card-img-top imgCard">
+                                    <img src="img/Ordenado.png" alt="" class="card-img-top imgCard">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -154,7 +169,8 @@
                                     Ordenado
                                 </h5>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam enim quod voluptate voluptatem! Maxime explicabo doloremque voluptate sit officia magni possimus. Voluptate dignissimos minus facere ab tempora cupiditate error!
+                                    <br>Requisitos:<br>cursar Pesquisa e Ordenação (ADS, EC) ou Programação Orientada a Objetos (ADS, EC)<br>
+                                    <br>Conhecimento necessário:<br> C / C++ / Java / JavaScript 
                                 </p>
                             </div>
                         </div>
@@ -163,7 +179,7 @@
                         <div class="card h-100 text-center">
                             <div class="container pt-3 d-flex align-items-center justify-content-center">
                                 <div class="cardImg">
-                                    <img src="Profissional.png" alt="" class="card-img-top imgCard">
+                                    <img src="img/Profissional.png" alt="" class="card-img-top imgCard">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -171,7 +187,8 @@
                                     Profissional
                                 </h5>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam enim quod voluptate voluptatem! Maxime explicabo doloremque voluptate sit officia magni possimus. Voluptate dignissimos minus facere ab tempora cupiditate error!
+                                    <br>Requisitos: <br>qualquer estudante de ADS ou EC<br>
+                                    <br><br>Conhecimento necessário:<br> C / C++ / Java / JavaScript
                                 </p>
                             </div>
                         </div>
@@ -182,25 +199,55 @@
 
     <section id="certificado" class="pt-5 pb-5">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
+            <div class="row justify-content-between">
                 <div class="col-md-6 pt-2">
                     <h1>Certificados</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatem ipsum id natus voluptas. Tenetur laborum repellendus, ut, adipisci quos pariatur, doloremque ex atque distinctio quam nisi error aliquid quaerat.
-                        Perspiciatis, nam aliquam. Odio veritatis quaerat cumque adipisci vel quas, dignissimos rerum quibusdam accusamus aut amet consequuntur? Eligendi, amet ab? Dicta impedit eos repellendus debitis quod nihil adipisci consequatur repudiandae?
+                    <p class="lead d-flex align-items-center pt-5">
+                        Serão emitidos certificados após a conclusão da Maratona, para que possam ser contabilizadas
+                        em horas complementares e servirem como comprovante para experiência em eventos competitivos.
                     </p>
-                    <a href="#" class="text-light text-decoration-none d-flex align-items-center justify-content-center">
+                    <a href="#" class="pt-5 text-light text-decoration-none d-flex align-items-end justify-content-center">
                         <button class="btn btn-primary btnCertificado">
                             Inscrever
                         </button>
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <img class="ps-5" src="Certificado_1.png" id="certificado" alt="">
+                    <img class="ps-5" src="img/Certificado_1.png" id="certificado" alt="">
                 </div>
             </div>
         </div>
     </section>
+
+    <footer class="d-flex bg-dark pt-5 pb-5">
+
+        <img id="logoFooter" class="img-fluid ps-3" src="img/iftm-logo.png">
+
+        <div class="container">
+            <p class="text-light d-flex justify-content-center pt-5">
+                Site desenvolvido para a Primeira Maratona de Programação Interdisciplinar
+            </p>
+            <p class="text-light d-flex justify-content-center pb-3">
+                <a href="https://iftm.edu.br/uraparquetecnologico/" class="text-muted text-decoration-none">
+                    Instituto Federal do Triângulo Mineiro - CAMPUS AVANÇADO UBERABA PARQUE TECNOLÓGICO
+                </a>
+            </p>
+            <ul class="d-flex align-items-end justify-content-center" id="midiasIf">
+                <li>
+                    <a href="https://www.instagram.com/iftmoficial/"><i class="bi bi-instagram fs-3"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/iftm.edu/"><i class="bi bi-facebook fs-3"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/iftmoficial"><i class="bi bi-twitter fs-3"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/iftmoficial"><i class="bi bi-youtube fs-3"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
