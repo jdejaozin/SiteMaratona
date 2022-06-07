@@ -8,7 +8,12 @@
         max-height: 100%;
     }
 }
-
+#linksNav ul li a{
+    color: #f5f3f5;
+}
+#linksNav ul li a:hover{
+    color: #8c52ff;
+}
 #logoNavBar{
     max-width: 40%;
 }
@@ -20,7 +25,7 @@
     border-radius: 30px;
     border: none;
     font-size: 0.8em;
-    font-weight: bold;
+
     width: 120%;
     height: 120%;
 }
@@ -86,8 +91,8 @@
     border-radius: 30px;
     border: none;
     font-weight: bold;
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
 }
 .btnCertificado:hover{
     background-color: #8c52ff;
@@ -98,8 +103,15 @@
 ul{
     list-style: none;
 }
+#midiasIf{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
 #midiasIf li{
     margin-left: 10px;
+    float: left;
+    padding: 2px 5px;
 }
 #midiasIf li a i{
     color: #f5f3f5;
@@ -109,8 +121,13 @@ ul{
 }
 .linkCrwd{
     color: #cb6ce6;
-    font-weight: bold;
 }
 .linkCrwd a:hover{
+    color: #8c52ff;
+}
+.linkCinza{
+    color: rgb(108, 117, 125);
+}
+a:hover{
     color: #8c52ff;
 }
